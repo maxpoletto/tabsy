@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Tabsy Link Copier",
+  "version": "1.0",
+  "description": "Copies all open tabs as HTML links",
+  "permissions": [
+    "clipboard-write",
+    "contextMenus",
+    "notifications",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Copy Tab Links",
+    "default_icon": "icon48.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
