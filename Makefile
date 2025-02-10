@@ -1,6 +1,6 @@
 all: chrome firefox
 
-FILES_COMMON=src/background.js src/icon48.png
+FILES_COMMON=src/background.js src/icon48.png src/copy.js src/copy.html
 MANIFEST_CHROME=src/manifest.chrome.json
 MANIFEST_FIREFOX=src/manifest.firefox.json
 
