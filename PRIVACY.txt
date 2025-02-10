@@ -1,0 +1,11 @@
+The "Tabsy" Chrome extension does not collect any user data nor share it with anyone, and it never will.
+I wrote it because I couldn't find an extension that had the features I wanted and that didn't grant
+itself more permissions than necessary.
+
+Tabsy has to have access to the URLs and title of the tabs in your browser window in order to copy
+them to the clipboard, which is its core functionality.
+
+It also requires access to the "contextMenus" API to allow you to choose the format of the copied
+links (HTML or Markdown).
+
+It doesn't send data anywhere other than the clipboard, and it doesn't use any external sites or services.
